@@ -1,0 +1,8 @@
+#Default language, en-us, en-gb
+#@admin
+oui_player_provider_myspace => Myspace videos
+oui_player_myspace => Myspace player (oui_player_myspace)
+oui_player_myspace_prefs => Display the Myspace player prefs
+oui_player_myspace_width => Player width
+oui_player_myspace_height => Player height
+oui_player_myspace_ratio => Player ratio by default
