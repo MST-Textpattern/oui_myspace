@@ -40,7 +40,9 @@ namespace Oui\Player {
             protected static $glue = array('play/video/', '?', '&amp;');
         }
 
-        if (txpinterface === 'admin') {
+        global $event;
+
+        if (txpinterface === 'admin' && $event === 'prefs') {
             Myspace::getInstance();
         }
 
