@@ -40,11 +40,6 @@ namespace Oui\Player {
             protected static $glue = array('play/video/', '?', '&amp;');
         }
 
-        global $event;
-
-        if (txpinterface === 'admin' && ($event === 'prefs' || $event === 'plugin_prefs.oui_player_myspace')) {
-            Myspace::getInstance();
-        }
-
+        register_callback('Oui\Player\Myspace::getProvider', 'oui_player', 'plug_providers');
     }
 }
