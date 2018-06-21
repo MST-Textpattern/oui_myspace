@@ -40,6 +40,5 @@ namespace Oui\Player {
             protected static $glue = array('play/video/', '?', '&amp;');
         }
 
-        register_callback('Oui\Player\Myspace::getProvider', 'oui_player', 'plug_providers');
     }
 }
