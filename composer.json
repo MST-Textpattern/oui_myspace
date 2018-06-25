@@ -1,5 +1,5 @@
 {
-    "name": "oui/oui_player_myspace",
+    "name": "oui/oui_myspace",
     "description": "MySpace HTML extension for oui_player",
     "keywords": [
         "textpattern",
@@ -8,7 +8,7 @@
         "video",
         "myspace"
     ],
-    "homepage": "https://github.com/NicolasGraph/oui_player_myspace",
+    "homepage": "https://github.com/NicolasGraph/oui_myspace",
     "license": "GPL-2.0-only",
     "type": "textpattern-plugin",
     "authors": [
@@ -19,8 +19,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/NicolasGraph/oui_player_myspace/issues",
-        "source": "https://github.com/NicolasGraph/oui_player_myspace"
+        "issues": "https://github.com/NicolasGraph/oui_myspace/issues",
+        "source": "https://github.com/NicolasGraph/oui_myspace"
     },
     "require": {
         "textpattern/lock": "4.6.*",

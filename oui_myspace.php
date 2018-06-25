@@ -1,11 +1,11 @@
 <?php
 
 /*
- * This file is part of oui_player_myspace,
+ * This file is part of oui_myspace,
  * a oui_player v2+ extension to easily embed
  * MySpace customizable video players in Textpattern CMS.
  *
- * https://github.com/NicolasGraph/oui_player_myspace
+ * https://github.com/NicolasGraph/oui_myspace
  *
  * Copyright (C) 2018 Nicolas Morand
  *
