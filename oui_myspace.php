@@ -36,10 +36,8 @@ namespace Oui {
         class Myspace extends Provider
         {
             protected static $patterns = array(
-                'video' => array(
-                    'scheme' => '#^(http|https)://myspace\.com/[\S]+/video/[\S]+/(\d+)$#i',
-                    'id'     => '2',
-                ),
+                'scheme' => '#^(http|https)://myspace\.com/[\S]+/video/[\S]+/(\d+)$#i',
+                'id'     => '2',
             );
             protected static $src = '//media.myspace.com/';
             protected static $glue = array('play/video/', '?', '&amp;');
