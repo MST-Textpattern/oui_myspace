@@ -44,15 +44,9 @@ namespace Oui {
             protected static $src = '//media.myspace.com/';
             protected static $glue = array('play/video/', '?', '&amp;');
             protected static $dims = array(
-                'width'     => array(
-                    'default' => '480',
-                ),
-                'height'    => array(
-                    'default' => '270',
-                ),
-                'ratio'     => array(
-                    'default' => '',
-                ),
+                'width'  => '480',
+                'height' => '270',
+                'ratio'  => '',
             );
         }
     }
