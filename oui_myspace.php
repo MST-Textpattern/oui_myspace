@@ -38,9 +38,13 @@ if (class_exists('Oui\Provider')) {
         protected static $srcBase = '//media.myspace.com/';
         protected static $srcGlue = array('play/video/', '?', '&amp;');
         protected static $iniDims = array(
-            'width'  => '480',
-            'height' => '270',
-            'ratio'  => '',
+            'width'      => '480',
+            'height'     => '270',
+            'ratio'      => '',
+            'responsive' => array(
+                'default' => 'false',
+                'valid'   => array('true', 'false'),
+            ),
         );
         protected static $mediaPatterns = array(
             'scheme' => '#^https?://myspace\.com/[\S]+/video/[\S]+/(\d+)$#i',
