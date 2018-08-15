@@ -29,23 +29,26 @@
  * @package Oui\Player
  */
 
-namespace Oui {
+namespace Oui;
 
-    if (class_exists('Oui\Provider')) {
+if (class_exists('Oui\Provider')) {
 
-        class Myspace extends Provider
-        {
-            protected static $patterns = array(
-                'scheme' => '#^(http|https)://myspace\.com/[\S]+/video/[\S]+/(\d+)$#i',
-                'id'     => '2',
-            );
-            protected static $src = '//media.myspace.com/';
-            protected static $glue = array('play/video/', '?', '&amp;');
-            protected static $dims = array(
-                'width'  => '480',
-                'height' => '270',
-                'ratio'  => '',
-            );
-        }
+    class Myspace extends Provider
+    {
+        protected static $srcBase = '//media.myspace.com/';
+        protected static $srcGlue = array('play/video/', '?', '&amp;');
+        protected static $iniDims = array(
+            'width'      => '480',
+            'height'     => '270',
+            'ratio'      => '',
+            'responsive' => array(
+                'default' => 'false',
+                'valid'   => array('true', 'false'),
+            ),
+        );
+        protected static $mediaPatterns = array(
+            'scheme' => '#^https?://myspace\.com/[\S]+/video/[\S]+/(\d+)$#i',
+            'id'     => '1',
+        );
     }
 }

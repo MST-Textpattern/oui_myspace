@@ -6,3 +6,4 @@ oui_player_myspace_prefs => Afficher les préférences du lecteur Myspace
 oui_player_myspace_width => Largeur du lecteur
 oui_player_myspace_height => Hauteur du lecteur
 oui_player_myspace_ratio => Ratio utilisé en l'absence de l'une des dimensions
+oui_player_myspace_responsive => Rendre les lecteurs adaptatifs à partir des dimensions fournies
