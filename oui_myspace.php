@@ -33,7 +33,7 @@ namespace Oui;
 
 if (class_exists('Oui\Player\Provider')) {
 
-    class Myspace extends Player\Provider
+    class Myspace extends Player\Embed
     {
         protected static $srcBase = '//media.myspace.com/';
         protected static $srcGlue = array('play/video/', '?', '&amp;');
